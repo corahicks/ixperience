@@ -1,0 +1,229 @@
+#header {
+    background: #ee3e64;
+    height: 50px;
+    top: 0%;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    font-size: 50px;
+    margin-top: -3%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 40px;
+  }
+  
+  div {
+    /*justify-content: center;
+      align-items: center;*/
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+  }
+  
+  body {
+    margin-top: -5%;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+  
+  #content {
+    background: #ebae45;
+    width: 100%;
+    height: 900px;
+    float: left;
+    position: relative;
+    color: white;
+    text-align: left;
+    font-size: small;
+    padding-right: 50px;
+  }
+  
+  #navigation {
+    background: #e2a741a2;
+    width: 45%;
+    height: 900px;
+    float: left;
+    position: absolute;
+    /*clear:both;*/
+    /*background: #e2a741;
+      width: 25%;
+      height: 400px;
+      float: right;*/
+  }
+  
+  #footer {
+      background: #ee3e64;
+      bottom: 0px;
+      position: fixed;
+      width: 100%;
+      height: 50px;
+      margin-left: 4rem;
+      margin-right: 100rem;
+      display: flex;
+      justify-content: center;
+      align-self: flex-end;
+    }
+  
+  #first-para {
+    margin-top: 3%;
+    margin-left: 50%;
+    margin-right: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+  }
+  
+  button {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: -20px;
+    height: 35px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  
+  #submitpg {
+    background-color: white;
+  }
+  #thanku {
+    margin-top: 12%;
+    margin-left: 35%;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+  }
+  
+  
+  .carousel-item {
+    width: 400px;
+    height: 400px;
+    padding-left: 10%;
+    margin-left: 20%;
+   padding-right: 10%;
+    margin-top: 15%;
+  }
+  
+  .carousel-indicators{
+      top: 85%;
+    }
+  
+  @media only screen and (max-width: 1000px) {
+  
+      #content{
+          height: 1000px;
+          width: 100%;
+      }
+  
+      #footer{
+          width: 100%;
+          height: 45px;
+          padding-left: 30px;
+          padding-right: 20px;
+          margin-left: 4%;
+          margin-right: -100%;
+          display:flex;
+          justify-content: center;
+          
+      }
+      button{
+          width: 20rem;
+          font-size: 18px;
+         margin-bottom: 50px;
+          display: flex;
+          justify-content: center;
+  
+      }
+  
+      .carousel-item {
+          width: 300px;
+          height: 400px;
+          padding-left: 5%;
+          margin-left: 18%;
+          margin-right: 15%;
+          padding-right: 10%;
+          margin-top: 25%;
+        }
+  
+        .carousel-indicators{
+          top: 75%;
+          right: 12%;
+        }
+        
+  }
+  
+  @media only screen and (max-width: 800px){
+      #header{
+          padding-top: 30px;
+      }
+      #content{
+          height: 1200px;
+         
+      }
+      #navigation{
+          height: 1200px;
+      }
+      #footer{
+          height: 35px;
+      }
+      .carousel-item{
+          height: 300px;
+          width: 350px;
+          margin-top: 200px;
+          margin-left: 12%;
+          padding-right: 30%;
+          margin-right: -40%
+      }
+  
+      .carousel-indicators{
+          top: 94%;
+          left: 24%;
+          width: 100px;
+        }
+  }
+  
+  @media only screen and (max-width: 500px){
+      #header{
+          width: 100%;
+          letter-spacing: 15px;
+          padding-right:75%;
+          padding-left: 100px;
+         
+          
+      }
+  
+      #content{
+          height: 5000px;
+         
+      }
+  
+      #footer{
+         display:flex;
+         justify-content: flex-start;
+         margin-left: 2%;
+      }
+  
+      #navigation{
+          height: 100%;
+      }
+  
+     #contact{
+      margin-top: 25%
+     }
+  
+      .carousel-item{
+          height: 300px;
+          width: 200px;
+          margin-top: 350px;
+          margin-left: 15%
+      }
+  
+      .carousel-indicators{
+          top: 74%;
+          left: 10%;
+        }
+  }
+  
