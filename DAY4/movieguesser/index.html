@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="card mt-4 px-1" style="background-color: #d5d4d4">
+        <div class="card-body"></div>
+        <h1 class="header text-center mb-4">Badly Explained Movies</h1>
+        <h6 class="header5 text-center mb-4">Disclaimer: This game is Case-Sensitive</h6>
+        <button id="play-btn" class="btn btn-primary btn-sm mx-5" style="background-color: blueviolet" type="button">Play Game</button>
+        <hr class="line mx-4 px-4" />
+        <p id="explanation" class="mov-description text-center fs-3 mt-1"></p>
+        <hr class="line mx-4 px-4"/>
+        <div class=" mb-4 mx-4 px-4">
+          <input id="guess" type="text" class="form-control" placeholder="Enter guess here" />
+          
+        </div>
+        <div class="d-grid gap-2 mx-4  px-4">
+          <button class="btn btn-primary" type="button" id="submit-btn">Submit</button>
+          <div id="space"></div>
+          </div>
+          <hr class="line mx-4 px-4"/>
+          <div class="d-grid gap-2 mx-4 mb-4 px-4">
+            <button id="hint-btn" class="btn btn-secondary" type="button">Show Hint</button>
+            <div id="hint-section"></div>
+          </div>
+         
+
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
